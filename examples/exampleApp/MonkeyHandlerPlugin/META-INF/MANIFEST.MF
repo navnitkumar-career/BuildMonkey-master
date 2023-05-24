@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: MonkeyPlugin
+Bundle-SymbolicName: MonkeyHandlerPlugin;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: Monkey-Works
+Require-Bundle: javax.inject,
+ org.eclipse.ui,
+ org.eclipse.e4.ui.model.workbench,
+ org.eclipse.e4.core.di.annotations,
+ org.eclipse.e4.core.di
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
